@@ -38,6 +38,7 @@ if (number >= 2) {
 // '( Hi, mary!)' is what is write to the console, IF the condition is true. So if the the variable called "name" is exactly equal to the value of 'Mary' then the console will log/write "Hi Mary!"
 //else comand says if the previous condition is not met or true, then do this next thing. Which is to again console.lot "how do you do?" instead of "Hi mary!"
 //curly bracket ends the whole thing
+// this whole could shoulf console.log 'Hi, Mary!'.
 
 //CODE
 /*
@@ -53,10 +54,16 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  "let secret"  means we are creating a variable and naming it "secret". We are not asigning it a value apparently though.
+// "let code" means we are creating a variable and naming it "code", and "= 123" means we are asigning it the value of 123. withch is a number vlaue.
+//if(code === 123) means if the value of the variable called "code" is EXACTLY EQUAL to the value(number) 123, then do the next thing.
+//the next thing is to asign the value 'super' to the varialble called "secret". 
+//code = code * 2; means to then also take the value of the varaible "code" and asign it a new value, which is it's self(code) times 2. Which would be 246. (123 times 2 is 246)
+
+//if (code > 250) means IF the value of "code" is LESS THAN 250, then do the next thing.
+//secret = 'duper' means change/asign the value 'duper' to the varaible named 'secret'
+//console.log(secret) just writes the new value of the varaible called secret
+//should console log the value of 'secret' as: 'super' because it is exactly equal to 123.
 
 //CODE
 /*
@@ -74,8 +81,27 @@ if (code > 250) {
 }
 
 console.log(secret)
-
 */
+
+let secret;
+
+let code = 123;
+
+if(code === 123) {
+  secret = 'super';
+  code = code * 2;
+}
+
+if (code > 250) {
+  secret = 'duper'
+}
+
+console.log(secret)
+
+
+
+
+
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // 
