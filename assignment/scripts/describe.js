@@ -63,7 +63,8 @@ if (name === 'Mary') {
 //if (code > 250) means IF the value of "code" is LESS THAN 250, then do the next thing.
 //secret = 'duper' means change/asign the value 'duper' to the varaible named 'secret'
 //console.log(secret) just writes the new value of the varaible called secret
-//should console log the value of 'secret' as: 'super' because it is exactly equal to 123.
+//should console log the value of 'secret' as: 'super'. This is because it was originaly 123, and then multiplied by 2 equalling 246. And since 246 is still NOT "greater than" 250. 
+//Aka less than, but technically it says its not greater than. So that's why i said it that way.
 
 //CODE
 /*
@@ -93,10 +94,11 @@ if(code === 123) {
 }
 
 if (code > 250) {
-  secret = 'duper'
+  secret = 'duper' 
 }
 
 console.log(secret)
+console.log( code );
 
 
 
@@ -104,10 +106,13 @@ console.log(secret)
 
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// let isStudent = true; means we are creating a varaiable using "let", naming it "isStudent" and asigning it the value of true.
+// let age = 34; means we are creating a varaiable using "let", naming it "age" and asigning it the value of 34.
+// let zip = 55407; means we are creating a varaiable using "let", naming it "zip" and asigning it the value of 55407.
+// if (isStudent === true && zip > 80000 )  -  means we are saying IF the condition: isStudnet is EXACTLY EQUAL(===) tp the value of true, AND(&&) the value of variable "zip" is GREATER THAN 8000. Curly bracket closes condition.
+// then do this: right to console (via console.log): `You're a student on the West Coast!`);
+// } else if (isStudent === false || age < 30) { - means if the previous condition is not ture, then check this condtion: which is if the variable 'isStudent' is EXACTLY EQUAL to false,  OR(||) if the variable 'age' is LESS THAN 30
+//then console.log out 'What are your hobbies?'.
 
 //CODE
 /*
@@ -126,6 +131,22 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
+
+let isStudent = true;
+let age = 34;
+let zip = 55407;
+
+if (isStudent === true && zip > 80000 ) {
+  console.log(`You're a student on the West Coast!`);
+} else if (isStudent === false || age < 30) {
+  console.log('What are your hobbies?');
+} else if (isStudent === true) {
+  console.log('Welcome to Prime!');
+} else {
+  console.log('How about the weather?')
+}
+
+
 
 
 
