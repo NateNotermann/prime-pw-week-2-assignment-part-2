@@ -26,10 +26,18 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// the word "let" is the command say we are doing something with a variable
+// the word "name" is the comand to asign the actual name of the variable we are creating
+// the "=" is the comand that states we are assigning a value to the varaible we are creating
+// 'Dane' is the value we are asigning to the varaible we are creating. it is a STRING beacuse of the quotes
+//  ";" closes out the variable creating line
+// "if" starts the conditional, saying IF the next thing is true...
+// "===" means EXACTLY equal. So the conditional in the parenthesis is: if the varialbe called "name" is exactly equal too 'Mary
+// curly bracket starts the "Then do this" kind of command
+//"console.log" writes to the console
+// '( Hi, mary!)' is what is write to the console, IF the condition is true. So if the the variable called "name" is exactly equal to the value of 'Mary' then the console will log/write "Hi Mary!"
+//else comand says if the previous condition is not met or true, then do this next thing. Which is to again console.lot "how do you do?" instead of "Hi mary!"
+//curly bracket ends the whole thing
 
 //CODE
 /*
