@@ -111,8 +111,16 @@ console.log( code );
 // let zip = 55407; means we are creating a varaiable using "let", naming it "zip" and asigning it the value of 55407.
 // if (isStudent === true && zip > 80000 )  -  means we are saying IF the condition: isStudnet is EXACTLY EQUAL(===) tp the value of true, AND(&&) the value of variable "zip" is GREATER THAN 8000. Curly bracket closes condition.
 // then do this: right to console (via console.log): `You're a student on the West Coast!`);
-// } else if (isStudent === false || age < 30) { - means if the previous condition is not ture, then check this condtion: which is if the variable 'isStudent' is EXACTLY EQUAL to false,  OR(||) if the variable 'age' is LESS THAN 30
+// else if (isStudent === false || age < 30) { - means if the previous condition is not ture, then check this condtion: which is if the variable 'isStudent' is EXACTLY EQUAL to false,  OR(||) if the variable 'age' is LESS THAN 30
 //then console.log out 'What are your hobbies?'.
+//else if (else if (isStudent === true) { - means if the previous condition is not ture, then check this new condition. New condition is check if 'isStudent' is EXACTLY EQUAL to true.
+//} else { says if the previous condition is not true then do the next thing.
+//the next thing is to jjst console.log "How about the weather?"
+//it the first COMPUND CONDITION (two or more conditions) is false, and the second commpound condition is alos false.
+/// the third conditional IS true, and the last conditional is false.
+//so the conly conditional that is true and that will console.log anything is the thrid one, "else if (isStudent === true)", because isStudent does exactly equal true, and that is all it asks for. 
+//so the at the end it should console.log: "Welcome to Prime!"
+
 
 //CODE
 /*
@@ -132,21 +140,24 @@ if (isStudent === true && zip > 80000 ) {
 
 */
 
+
 let isStudent = true;
 let age = 34;
 let zip = 55407;
 
 if (isStudent === true && zip > 80000 ) {
   console.log(`You're a student on the West Coast!`);
-} else if (isStudent === false || age < 30) {
+} else if (isStudent === false || age < 30) {   //so if I understand this right, you can have as many "else if" conditionals in a thing as you want. 
   console.log('What are your hobbies?');
 } else if (isStudent === true) {
   console.log('Welcome to Prime!');
-} else {
+} else {                                    // but you can only have one(ending) "else" conditional. Does that sounds right?
   console.log('How about the weather?')
 }
 
-
+console.log( isStudent );
+console.log( age );
+console.log( zip );
 
 
 
@@ -185,6 +196,9 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+//  FIX - sets variable to "red" 
+// should set variable to "blue" let colorOne = 'blue';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
