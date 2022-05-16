@@ -216,16 +216,23 @@ if (mix === true) { //basicly correct. it checks if mix is EXACTLY true. as apos
 }
 */
 
+
+
+
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
 /*
-let temp = 40;
-const time = 4;
+let temp = 40;  //corrct variable "temp" is set to "40"
+const time = 4;  // wrong, not a variable. It's a constant. should be "let = time = 4;""
 
-if (temp > 39 || time >= 4) {
-  console.log('throw away the food!');
+if (temp > 39 || time >= 4) { // we do check if "temp" is higher(>) than "39". but don't do the "AND" part. It DOES also check if time is GREATER OR EQUAL to 4.
+  //should be: "if (temp > 39 && time >= 4) "
+  
+
+  console.log('throw away the food!'); //correct
 }
 */
 
@@ -234,13 +241,16 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
-let age = 21;
-const minAge = 21;
+let age = 21;         //correct variable "age" is set to 21. 
+const minAge = 21;    //wrong. is a constant when it should be a variable. should be: "let minAge = 21;""
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
-  console.log('enter');
+if(minAge <= age) {        //wrong. has minAge and age reversed. Should start with age. also checks is one is LESS or equal to then it shou;d be greater or equal to.
+                          // should be: "if( age >= minAge )""
+  console.log('no entry'); //wrong. console logs "no entry" when it should console.log "enter". It doesn't say anything about console.loging "no entry" nor does it mention an else condition.
+                          //should be: "console.log( 'enter' );
+                                        }"    -- this is where it should all end. don't forget the curly bracket.
+} else {                  //wrong, extra code. don't need.
+  console.log('enter');   // should have been in the previous condition.
 }
 */
 
