@@ -197,13 +197,21 @@ if (number >= 2) {
 
 /*
 
-//  FIX - sets variable to "red" 
+//  FIX - sets variable colorOne to "red" 
 // should set variable to "blue" let colorOne = 'blue';
 let colorOne = 'red';
-let colorTwo = 'blue';
-let mix = true;
 
-if (mix === true) {
+// FIX - set varible "colorTwo" to "blue"
+// should set variable "colortwo" to "red". should be: "let colorTwo = 'red';"
+let colorTwo = 'blue';
+
+let mix = true; //correct
+
+if (mix === true) { //basicly correct. it checks if mix is EXACTLY true. as apose to "==". 
+
+  //FIX - It only sets one varaible(colorOne) to now equal "purple". 
+  // should get both variables colorone and colorTwo to purple.
+  //should add: colorTwo = 'purple'; 
   colorOne = 'purple';
 }
 */
